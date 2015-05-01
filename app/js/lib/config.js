@@ -19,8 +19,8 @@ Config = window.Config || {};
 */
 
 Config.App = {
-  id: 2496,
-  hash: '8da85b0d5bfe62527e5b244c209159c3',
+  id: 35175,
+  hash: '508d53bbea253cd426ead95afb377f9e',
   version: '0.4.4',
   domains: ['web.telegram.org', 'zhukov.github.io']
 };
@@ -55,6 +55,7 @@ Config.I18n = {
     ,"it-it"
     ,"nl-nl"
     ,"pt-br"
+    ,"ga-ie"
     // ,"ru-ru"
   ], // To be copied to package.json
   languages: {
@@ -64,7 +65,8 @@ Config.I18n = {
     'it-it': 'Italiano',
     'ru-ru': 'Русский',
     'nl-nl': 'Nederlands',
-    'pt-br': 'Português (Brazil)'
+    'pt-br': 'Português (Brazil)',
+    'ga-ie': 'Gaeilge'
   },
   aliases: {
     'en': 'en-us',
@@ -73,6 +75,7 @@ Config.I18n = {
     'it': 'it-it',
     'ru': 'ru-ru',
     'nl': 'nl-nl'
+    'ga': 'ga-ie'
   },
   messages: {},
   fallback_messages: {}
