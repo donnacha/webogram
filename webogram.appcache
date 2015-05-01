@@ -71,6 +71,7 @@ js/locales/it-it.json
 js/locales/nl-nl.json
 js/locales/pt-br.json
 js/locales/ru-ru.json
+js/locales/ga-ie.json
 vendor/closure/long.js
 vendor/cryptoJS/crypto.js
 vendor/jsbn/jsbn_combined.js
@@ -83,7 +84,7 @@ vendor/angular/i18n/angular-locale_it-it.js
 vendor/angular/i18n/angular-locale_nl-nl.js
 vendor/angular/i18n/angular-locale_pt-br.js
 vendor/angular/i18n/angular-locale_ru-ru.js
-
+vendor/angular/i18n/angular-locale_ga-ie.js
 
 NETWORK:
 http://*
