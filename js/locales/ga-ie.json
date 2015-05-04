@@ -9,7 +9,7 @@
 	"modal_done": "Déanta",
 
 	"group_modal_info": "Eolas faoin mbaicle",
-	"group_modal_pluralize_participants": "{'0': 'No members', 'one': '1 member', 'other': '{} members'}",
+	"group_modal_pluralize_participants": "{'0': 'Ball ar bith', 'one': 'ball 1', 'other': '{} baill'}",
 	"group_modal_pluralize_online_participants": "{'one': '1 nasctha', 'other': '{} online'}",
 	"group_modal_participants": "{total}, {online}",
 	"group_modal_add_member": "Cuir duine leis",
@@ -175,7 +175,7 @@
 	"confirm_modal_clipboard_file_send": "Are you sure to send file(s) from clipboard?",
 	"confirm_modal_clipboard_X_files_send": "{'one': 'Are you sure to send file from clipboard?', 'other': 'Are you sure to send {} files from clipboard?'}",
 	"confirm_modal_message_delete": "An bhfuil tú cinnte de gur mian leat an teachtaireacht seo a scriosadh?",
-	"confirm_modal_X_messages_delete": "{'one': 'Are you sure you want to delete the message?', 'other': 'Are you sure you want to delete {} messages?'}",
+	"confirm_modal_X_messages_delete": "{'one': 'An bhfuil tú cinnte de gur mian leat an teachtaireacht seo a scriosadh?', 'other': 'An bhfuil tú cinnte de gur mian leat na {} teachtaireachtaí seo a scriosadh?'}",
 	"confirm_modal_photo_delete": "An bhfuil tú cinnte gur mian leat an grianghraf seo a scriosadh?",
 	"confirm_modal_contacts_import": "Telegram will now sync your contacts in order to find your friends.",
 	"confirm_modal_login_phone_correct": "An bhfuil an uimhir ghutháin seo ceart?",
@@ -695,7 +695,7 @@
 	"country_select_modal_country_tj": "Tajikistan",
 	"country_select_modal_country_tz": "Tanzania",
 	"country_select_modal_country_th": "Thailand",
-	"country_select_modal_country_tg": "Togo",
+	"country_select_modal_country_tg": "Togo", {}
 	"country_select_modal_country_tk": "Tokelau",
 	"country_select_modal_country_to": "Tonga",
 	"country_select_modal_country_tt": "Trinidad & Tobago",
