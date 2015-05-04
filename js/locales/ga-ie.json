@@ -124,14 +124,9 @@
 	"media_modal_download": "Íosluchtaigh",
 	"media_modal_delete": "Scrios",
 
-	"error_browser_no_local_file_system_image_md": "Ní thugann do líonléitheoir tacaíocht don {moz-link: 
-https://developer.mozilla.org/en-US/docs/Web/API/LocalFileSystem | 
-LocalFileSystem} ghné atá de dhíth chun an íomhá seo a thaispeáint.\nSuiteáil {chrome-link: http://google.com/chrome | Google Chrome} nó bain feidhm as  
-{telegram-link: https://telegram.org/ | mobile app} ina áit.",
+	"error_browser_no_local_file_system_image_md": "Ní thugann do líonléitheoir tacaíocht don {moz-link: https://developer.mozilla.org/en-US/docs/Web/API/LocalFileSystem | LocalFileSystem} ghné atá de dhíth chun an íomhá seo a thaispeáint.\nSuiteáil {chrome-link: http://google.com/chrome | Google Chrome} nó bain feidhm as {telegram-link: https://telegram.org/ | mobile app} ina áit.",
 	"error_image_download_failed": "Theip ar an íosluchtú",
-	"error_browser_no_local_file_system_video_md": "Ní thugann do líonléitheoir tacaíocht don {moz-link: 
-https://developer.mozilla.org/en-US/docs/Web/API/LocalFileSystem | 
-LocalFileSystem} ghné atá de dhíth chun an físeán seo a sheinm.\nSuiteáil {chrome-link: http://google.com/chrome | Google Chrome} nó bain feidhm as {telegram-link: https://telegram.org/ | mobile app} ina áit.",
+	"error_browser_no_local_file_system_video_md": "Ní thugann do líonléitheoir tacaíocht don {moz-link: https://developer.mozilla.org/en-US/docs/Web/API/LocalFileSystem | LocalFileSystem} ghné atá de dhíth chun an físeán seo a sheinm.\nSuiteáil {chrome-link: http://google.com/chrome | Google Chrome} nó bain feidhm as {telegram-link: https://telegram.org/ | mobile app} ina áit.",
 	"error_video_download_failed": "Theip air an físeán a íosluchtú",
 
 	"unread_messages_split": "Teachtaireachtaí neamhléite",
@@ -147,24 +142,24 @@ LocalFileSystem} ghné atá de dhíth chun an físeán seo a sheinm.\nSuiteáil 
 	"chat_title_deleted": "SCRIOSTA",
 	"format_size_progress_mulitple": "{done} as {total} {parts}",
 	"format_size_progress": "{done} as {total}",
-	"relative_time_pluralize_minutes_ago": "{'one': '1 minute ago', 'other': '{} minutes ago'}",
-	"relative_time_pluralize_hours_ago": "{'one': '1 hour ago', 'other': '{} hours ago'}",
-	"relative_time_just_now": "just now",
+	"relative_time_pluralize_minutes_ago": "{'one': '1 nóiméad ó shin', 'other': '{} nóiméid ó shin'}",
+	"relative_time_pluralize_hours_ago": "{'one': '1 uair ó shin', 'other': '{} uair ó shin'}",
+	"relative_time_just_now": "anois díreach",
 
-	"changelog_modal_header_recent_updates_md": "Recent updates in **Telegram Web**",
-	"changelog_modal_header_new_updates_md": "**Telegram Web** has been updated!",
-	"changelog_modal_title_current_version": "current version",
+	"changelog_modal_header_recent_updates_md": "Nuashonruithe le déanaí i **Telegram Web**",
+	"changelog_modal_header_new_updates_md": "Nuashonraíodh **Telegram Web**!",
+	"changelog_modal_title_current_version": "an leagan reatha",
 
-	"group_create_contacts_modal_title": "New group",
-	"group_create_modal_title": "Create group",
-	"group_create_name": "Group name",
-	"group_create_submit": "Create group",
-	"group_create_submit_active": "Creating...",
+	"group_create_contacts_modal_title": "Baicle Nua",
+	"group_create_modal_title": "Cruthaigh Baicle",
+	"group_create_name": "Ainm na Baicle",
+	"group_create_submit": "Cruthaigh Baicle",
+	"group_create_submit_active": "Ag cruthú...",
 
-	"group_edit_modal_title": "Edit group",
-	"group_edit_name": "Group name",
-	"group_edit_submit": "Save",
-	"group_edit_submit_active": "Saving...",
+	"group_edit_modal_title": "Cuir an bhaicle in eagar",
+	"group_edit_name": "Ainm na baicle",
+	"group_edit_submit": "Taisc",
+	"group_edit_submit_active": "Ag cuir i dtaisce...",
 
 	"group_invite_link_modal_title": "Invite link",
 	"group_invite_link_link_label": "Copy link",
@@ -172,9 +167,9 @@ LocalFileSystem} ghné atá de dhíth chun an físeán seo a sheinm.\nSuiteáil 
 	"group_invite_revoke_active": "Revoking...",
 	"group_invite_revoke": "Revoke",
 
-	"confirm_modal_logout": "Are you sure you want to log out?",
-	"confirm_modal_update_reload": "A new version of Telegram Web has been downloaded. Launch it?",
-	"confirm_modal_history_flush": "Are you sure? This can not be undone!",
+	"confirm_modal_logout": "An bhfuil tú cinnte gur mian leat scoir?",
+	"confirm_modal_update_reload": "Íosluchtaíodh leagan nua de Telegram Web. Ar mhaith é a thosú?",
+	"confirm_modal_history_flush": "An bhfuil tú cinnte? Ní féidir seo a chealú!",
 	"confirm_modal_terminate_sessions": "Are you sure you want to log out all devices except for this one?",
 	"confirm_modal_terminate_session": "Are you sure you want to log out this device?",
 	"confirm_modal_clipboard_file_send": "Are you sure to send file(s) from clipboard?",
