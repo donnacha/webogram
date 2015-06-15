@@ -1,5 +1,5 @@
 {
-	"modal_search":"Cuardaigh",
+"modal_search":"Cuardaigh",
 "modal_close":"Dún",
 "modal_edit":"Cuir in eagar",
 "modal_cancel":"Cealaigh",
@@ -89,6 +89,8 @@
 "chat_title_deleted":"SCRIOSTA",
 "format_size_progress_mulitple":"{done} as {total} {parts}",
 "format_size_progress":"{done} as {total}",
+"relative_time_pluralize_minutes_ago":"{'one': 'nóiméad amháin ó shin', 'other': '{} nóiméad ó shin'}",
+"relative_time_pluralize_hours_ago":"{'one': 'uair an chloig ó shin', 'other': '{} uair ó shin'}",
 "relative_time_just_now":"anois díreach",
 "changelog_modal_header_recent_updates_md":"Nuashonruithe le déanaí i **Telegram Web**",
 "changelog_modal_header_new_updates_md":"Nuashonraíodh **Telegram Web**!",
@@ -527,6 +529,9 @@
 "country_select_modal_country_va":"Cathair na Vatacáine",
 "country_select_modal_country_vn":"Vítneam",
 "country_select_modal_country_wf":"Vailís & Futúna",
-"country_select_modal_country_ye":"Éimin"
+"country_select_modal_country_ye":"Éimin",
+"country_select_modal_country_zm":"an tSaimbia",
+"country_select_modal_country_tz_uk":"Sainsibeár",
+"country_select_modal_country_zw":"an tSiombáib",
 }
 
