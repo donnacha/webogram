@@ -1,11 +1,29 @@
 'use strict';
 angular.module("ngLocale", [], ["$provide", function($provide) {
 var PLURAL_CATEGORY = {ZERO: "zero", ONE: "one", TWO: "two", FEW: "few", MANY: "many", OTHER: "other"};
+function getDecimals(n) {
+  n = n + '';
+  var i = n.indexOf('.');
+  return (i == -1) ? 0 : n.length - i - 1;
+}
+
+function getVF(n, opt_precision) {
+  var v = opt_precision;
+
+  if (undefined === v) {
+    v = Math.min(getDecimals(n), 3);
+  }
+
+  var base = Math.pow(10, v);
+  var f = ((n * base) | 0) % base;
+  return {v: v, f: f};
+}
+
 $provide.value("$locale", {
   "DATETIME_FORMATS": {
     "AMPMS": [
-      "a.m.",
-      "p.m."
+      "rn",
+      "in"
     ],
     "DAY": [
       "D\u00e9 Domhnaigh",
@@ -31,7 +49,7 @@ $provide.value("$locale", {
       "Nollaig"
     ],
     "SHORTDAY": [
-      "Domh",
+     "Domh",
       "Luan",
       "M\u00e1irt",
       "C\u00e9ad",
@@ -40,7 +58,7 @@ $provide.value("$locale", {
       "Sath"
     ],
     "SHORTMONTH": [
-      "Ean",
+       "Ean",
       "Feabh",
       "M\u00e1rta",
       "Aib",
@@ -53,7 +71,7 @@ $provide.value("$locale", {
       "Samh",
       "Noll"
     ],
-    "fullDate": "EEEE d MMMM y",
+    "fullDate": "EEEE, d MMMM y",
     "longDate": "d MMMM y",
     "medium": "d MMM y HH:mm:ss",
     "mediumDate": "d MMM y",
@@ -92,6 +110,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "ga-ie",
-  "pluralCat": function(n, opt_precision) {  if (n == 1) {    return PLURAL_CATEGORY.ONE;  }  if (n == 2) {    return PLURAL_CATEGORY.TWO;  }  if (n >= 3 && n <= 6) {    return PLURAL_CATEGORY.FEW;  }  if (n >= 7 && n <= 10) {    return PLURAL_CATEGORY.MANY;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);
